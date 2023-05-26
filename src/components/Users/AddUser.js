@@ -9,8 +9,8 @@ const AddUser = (props) => {
 
     const addUserHandler = (event) => {
         event.preventDefault();
+}
 
-    }
 return (
     <Card className={classes.input}>
     <form onSubmit={addUserHandler}>
