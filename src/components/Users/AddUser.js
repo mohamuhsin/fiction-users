@@ -6,6 +6,7 @@ import Button from '../UI/Button';
 const AddUser = (props) => {
 
     const [enteredUsername, setenteredUsername] = useState('');
+    const [enteredAge, setenteredAge] = useState('');
 
     const addUserHandler = (event) => {
         event.preventDefault();
@@ -16,7 +17,7 @@ setenteredUsername(event.target.value);
 }
 
 const ageChangeHandler = (event) => {
-    setenteredUsername(event.target.value);
+    setenteredAge(event.target.value);
     }
 
 return (
