@@ -26,10 +26,10 @@ const ageChangeHandler = (event) => {
 return (
     <Card className={classes.input}>
     <form onSubmit={addUserHandler}>
-        <label htmlFor='username' onChange={usernameChangeHandler}>Username</label>
-        <input id='username' type='text' value={enteredUsername} />
-        <label htmlFor='age' onChange={ageChangeHandler}>Age (Years)</label>
-        <input id='age' type='number' value={enteredAge} />
+        <label htmlFor='username'>Username</label>
+        <input id='username' type='text' value={enteredUsername} onChange={usernameChangeHandler} />
+        <label htmlFor='age'>Age (Years)</label>
+        <input id='age' type='number' value={enteredAge}  onChange={ageChangeHandler}/>
         <Button type='submit'>Add User</Button>
     </form>
     </Card>
