@@ -27,9 +27,9 @@ return (
     <Card className={classes.input}>
     <form onSubmit={addUserHandler}>
         <label htmlFor='username' onChange={usernameChangeHandler}>Username</label>
-        <input id='username' type='text' />
+        <input id='username' type='text' value={enteredUsername} />
         <label htmlFor='age' onChange={ageChangeHandler}>Age (Years)</label>
-        <input id='age' type='number' />
+        <input id='age' type='number' value={enteredAge} />
         <Button type='submit'>Add User</Button>
     </form>
     </Card>
