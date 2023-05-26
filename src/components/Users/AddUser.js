@@ -10,6 +10,9 @@ const AddUser = (props) => {
 
     const addUserHandler = (event) => {
         event.preventDefault();
+        console.log(enteredUsername, enteredAge);
+        setenteredUsername('')
+        setenteredAge('');
 }
 
 const usernameChangeHandler = (event) => {
