@@ -3,7 +3,7 @@ import UsersList from "./components/Users/UsersList";
 function App() {
   return (
     <div>
-      <AddUser />
+      <AddUser onAddUser />
       <UsersList users={[]} />
     </div>
   );
